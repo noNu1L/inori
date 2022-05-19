@@ -1,6 +1,6 @@
  ![](https://wx4.sinaimg.cn/mw2000/7f78979cgy1h2dw7lh9mej20bd0o40u9.jpg)
 
- ![img](README.assets/7f78979cgy1h2dw7lm2dxj20c00oamxq.jpg)
+ ![img](https://wx2.sinaimg.cn/mw2000/7f78979cgy1h2dw7lm2dxj20c00oamxq.jpg)
 
 
 
