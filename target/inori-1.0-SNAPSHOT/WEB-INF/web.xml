@@ -1,0 +1,50 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true">
+
+
+    <!--多媒体控制-->
+    <servlet>
+        <servlet-name>mediaControl</servlet-name>
+        <servlet-class>com.zhong.servlet.MediaControlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mediaControl</servlet-name>
+        <url-pattern>/mediaControl.do</url-pattern>
+    </servlet-mapping>
+
+    <!--系统信息-->
+    <servlet>
+        <servlet-name>systemInfo</servlet-name>
+        <servlet-class>com.zhong.servlet.SystemInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>systemInfo</servlet-name>
+        <url-pattern>/systemInfo.do</url-pattern>
+    </servlet-mapping>
+
+    <!--更新配置-->
+    <servlet>
+        <servlet-name>updateConfig</servlet-name>
+        <servlet-class>com.zhong.servlet.UpdateConfigServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>updateConfig</servlet-name>
+        <url-pattern>/updateConfig.do</url-pattern>
+    </servlet-mapping>
+
+
+    <!--剪切板组件-->
+    <servlet>
+        <servlet-name>clipboardServlet</servlet-name>
+        <servlet-class>com.zhong.servlet.ClipboardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>clipboardServlet</servlet-name>
+        <url-pattern>/clipboard.do</url-pattern>
+    </servlet-mapping>
+
+</web-app>
